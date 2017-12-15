@@ -1,7 +1,7 @@
 //= require typeahead
 //= require typeahead-addresspicker.min
 
-$(document).on("turbolinks:load", function() {
+$(document).on("turbolinks:load blocks:add", function() {
 
   $(".address_picker").each(function(index, element) {
     var $el = $(element);
